@@ -1,0 +1,60 @@
+```mermaid
+classDiagram
+    direction TB
+
+    class AppShell {
+        +HomeDashboard
+        +通知/設定
+    }
+
+    class EpisodeEditorModule {
+        +Dashboard
+        +SelfWriting
+        +DialogAgent
+        +ScoringPipeline
+    }
+
+    class MatchingModule {
+        +EpisodeMatchEngine
+        +PairOnion生成
+        +理由生成
+    }
+
+    class SharingModule {
+        +PairOnionUI
+        +皮を剥くフロー
+        +共有履歴
+    }
+
+    class SafetyModule {
+        +危機検知
+        +クールダウン管理
+        +サポートリソース提示
+    }
+
+    class GrowthFeatures {
+        +dailyタマネギ
+        +EveGen
+        +TrustLearningModules(案)
+    }
+
+    class DataLayer {
+        +EpisodeStore
+        +UserProfiles
+        +ReflectionLogs
+    }
+
+    AppShell --> EpisodeEditorModule : provides access
+    AppShell --> MatchingModule : surfaces候補
+    AppShell --> SharingModule : ナビゲーション
+    AppShell --> GrowthFeatures : optional
+
+    EpisodeEditorModule --> DataLayer : 読み書き
+    MatchingModule --> DataLayer
+    SharingModule --> DataLayer
+    SafetyModule --> DataLayer
+
+    MatchingModule --> SafetyModule : ガード
+    SharingModule --> SafetyModule : 安全確認
+    GrowthFeatures --> DataLayer : 利用
+```

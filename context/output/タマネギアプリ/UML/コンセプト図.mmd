@@ -1,0 +1,53 @@
+```mermaid
+classDiagram
+    direction TB
+    class TamaNegiApp {
+        +CoreExperience: 段階的・相互的な自己開示
+        +Metaphor: 玉ねぎの層
+        +Assist: LLM伴走と安全見守り
+    }
+    class UserMotivation {
+        +背景共有の難しさ
+        +心理的安全性の欠如
+        +相手との深さミスマッチ
+    }
+    class ExperiencePillars {
+        +Mutuality: 同じ深さで剥き合う
+        +Graduality: 層を一枚ずつ開示
+        +Safety: 安心設計とガードレール
+    }
+    class SystemComponents {
+        +EpisodeEditor
+        +OnionLayerSharing
+        +AffinityMatching
+        +SafetyProtocols
+    }
+    class EpisodeEditor {
+        +LLM支援リライト
+        +タグ/スコア設定
+        +セルフ/対話作成
+    }
+    class OnionLayerSharing {
+        +相互開示SNS
+        +ペアタマネギ
+        +皮を剥く導線
+    }
+    class AffinityMatching {
+        +深さ/露出/支援Need評価
+        +トーン整合性チェック
+        +説明テキスト生成
+    }
+    class SafetyProtocols {
+        +危機検知とエスカレーション
+        +クールダウン
+        +リフレクションログ
+    }
+
+    TamaNegiApp --> UserMotivation : addresses
+    TamaNegiApp --> ExperiencePillars : guided by
+    TamaNegiApp --> SystemComponents : composed of
+    SystemComponents *-- EpisodeEditor
+    SystemComponents *-- OnionLayerSharing
+    SystemComponents *-- AffinityMatching
+    SystemComponents *-- SafetyProtocols
+```

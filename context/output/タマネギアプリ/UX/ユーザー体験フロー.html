@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>玉ねぎアプリ ユーザー体験フロー</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: "Inter", "Hiragino Sans", "Noto Sans JP", sans-serif;
+        background: var(--page-bg, #f5f7fa);
+        color: var(--text-color, #1f2933);
+      }
+      body {
+        margin: 0;
+        padding: 24px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(245, 247, 250, 0.92));
+      }
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      header {
+        margin-bottom: 24px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.4);
+      }
+      h1 {
+        font-size: 1.75rem;
+        margin: 0;
+      }
+      p {
+        line-height: 1.7;
+        margin: 0.5rem 0;
+      }
+      .diagram-card {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 16px;
+        border: 1px solid rgba(203, 213, 225, 0.5);
+        padding: 24px;
+        box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+      }
+      .mermaid {
+        margin-top: 16px;
+        border-radius: 12px;
+        background: #0f172a;
+        color: #e2e8f0;
+        padding: 16px;
+        overflow-x: auto;
+      }
+      section {
+        margin-top: 32px;
+      }
+      section h2 {
+        font-size: 1.25rem;
+        margin-bottom: 12px;
+      }
+      ul {
+        margin: 0;
+        padding-left: 1.5rem;
+      }
+      footer {
+        margin-top: 48px;
+        font-size: 0.85rem;
+        color: #475569;
+      }
+      @media (max-width: 600px) {
+        body {
+          padding: 16px;
+        }
+        .diagram-card {
+          padding: 16px;
+        }
+      }
+    </style>
+    <script type="module" defer>
+      import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "default",
+        securityLevel: "strict",
+      });
+    </script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>玉ねぎアプリ ユーザー体験フロー</h1>
+        <p>
+          ホームから「育てる」「剥がす」「フォロワー」へ至る導線と、相互開示後のリフレクションまでの一連の流れをUMLアクティビティ図で整理しました。
+        </p>
+      </header>
+
+      <article class="diagram-card">
+        <div class="mermaid">
+stateDiagram-v2
+    [*] --> app_start
+    home --> [*]
+    app_start --> account_setup : 初回
+    app_start --> home : 再訪時
+    account_setup --> persona_alignment
+    persona_alignment --> init_onion
+    init_onion --> home
+    home --> episode_choice : 育てるCTA
+    episode_choice --> self_writing
+    episode_choice --> dialog_agent
+    self_writing --> scoring
+    dialog_agent --> scoring
+    scoring --> store_layer
+    store_layer --> home : ホームへ戻る
+    home --> candidate_check : 剥がすCTA
+    candidate_check --> match_reason
+    candidate_check --> alt_request
+    alt_request --> candidate_check : 再提案
+    match_reason --> confirm_peel
+    confirm_peel --> exchange
+    exchange --> reflection_log
+    reflection_log --> home : フィードバック反映
+    home --> friend_management : フォロワーCTA
+    friend_management --> history_view
+    friend_management --> invite
+    history_view --> home
+    invite --> pending
+    pending --> home : 承認後
+        </div>
+      </article>
+
+      <section>
+        <h2>補足情報</h2>
+        <ul>
+          <li>育てる導線ではセルフライティング・対話エージェント双方からスコアリングへ集約。</li>
+          <li>剥がす導線はマッチング確認 → 理由提示 → 相互開示 → リフレクションの順で安全に進む。</li>
+          <li>フォロワー導線ではフレンド管理から履歴確認や新規招待を行い、承認後ホームへ戻る。</li>
+        </ul>
+      </section>
+
+      <footer>最終更新: 2025-10-14</footer>
+    </main>
+  </body>
+</html>

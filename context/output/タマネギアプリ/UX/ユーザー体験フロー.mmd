@@ -1,0 +1,31 @@
+```mermaid
+stateDiagram-v2
+    [*] --> app_start
+    home --> [*]
+    app_start --> account_setup : 初回
+    app_start --> home : 再訪時
+    account_setup --> persona_alignment
+    persona_alignment --> init_onion
+    init_onion --> home
+    home --> episode_choice : 育てるCTA
+    episode_choice --> self_writing
+    episode_choice --> dialog_agent
+    self_writing --> scoring
+    dialog_agent --> scoring
+    scoring --> store_layer
+    store_layer --> home : ホームへ戻る
+    home --> candidate_check : 剥がすCTA
+    candidate_check --> match_reason
+    candidate_check --> alt_request
+    alt_request --> candidate_check : 再提案
+    match_reason --> confirm_peel
+    confirm_peel --> exchange
+    exchange --> reflection_log
+    reflection_log --> home : フィードバック反映
+    home --> friend_management : フォロワーCTA
+    friend_management --> history_view
+    friend_management --> invite
+    history_view --> home
+    invite --> pending
+    pending --> home : 承認後
+```

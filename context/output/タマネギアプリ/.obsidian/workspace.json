@@ -1,0 +1,437 @@
+{
+  "main": {
+    "id": "d3452493476fdcb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "37dd19f55282eda0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f7576c6759c7d3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "コンセプト/コンセプト.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "コンセプト"
+            }
+          },
+          {
+            "id": "42a1cae53199993e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "機能/エピソードエディタ/セルフライティング.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "セルフライティング"
+            }
+          },
+          {
+            "id": "8c8ea01c380bb31c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "機能/エピソードエディタ/対話的エピソード作成/目的・メリット.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "目的・メリット"
+            }
+          },
+          {
+            "id": "a70c22de02cdacd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ターゲット/初期ターゲット.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "初期ターゲット"
+            }
+          },
+          {
+            "id": "52d820bc8a66b22f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "機能/エピソードエディタ/対話的エピソード作成/目的・メリット.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "目的・メリット"
+            }
+          },
+          {
+            "id": "ba3d547dfe36eaf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "機能/エピソードエディタ/対話的エピソード作成/パーソナリティ判定チュートリアル.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "パーソナリティ判定チュートリアル"
+            }
+          },
+          {
+            "id": "7b1f93ca3f15f6b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "機能/エピソードエディタ/セルフライティング.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "セルフライティング"
+            }
+          },
+          {
+            "id": "3f31d45073f7e8a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "機能/エピソードの相互開示/ペアタマネギ/ペアタマネギ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ペアタマネギ"
+            }
+          },
+          {
+            "id": "67cde783b05922ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "機能/発展的機能/EveGen.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EveGen"
+            }
+          },
+          {
+            "id": "759bfa8c645e1db1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "設計/バックエンド/対話でエピソード生成ロジック.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "対話でエピソード生成ロジック"
+            }
+          },
+          {
+            "id": "6afa1ae1f3484456",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "設計/バックエンド/対話でエピソード生成ロジック.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "対話でエピソード生成ロジック"
+            }
+          },
+          {
+            "id": "360f8d9fe327d980",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ターゲット/初期ターゲット.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "初期ターゲット"
+            }
+          },
+          {
+            "id": "0a807a4cd2039b74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "機能/エピソードの相互開示/フレンド.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "フレンド"
+            }
+          },
+          {
+            "id": "e1e448458dfd5984",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "コンセプト/コンセプト.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "コンセプト"
+            }
+          },
+          {
+            "id": "fea09fa112e8dc1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "設計/バックエンド/エージェント/エピソードマッチングエージェント.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "エピソードマッチングエージェント"
+            }
+          },
+          {
+            "id": "d6a0560381d4706a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "機能/エピソードエディタ/対話的エピソード作成/目的・メリット.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "目的・メリット"
+            }
+          },
+          {
+            "id": "f3cdceee02433947",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "機能/ユーザーのパーソナリティ表現.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ユーザーのパーソナリティ表現"
+            }
+          }
+        ],
+        "currentTab": 16
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec0b471d2da002ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "d20dc6630ae97fe9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5e2a1bb079ec41d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cadb8de61ca693ee",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#サービス初期のターゲット",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9b4738fe941f9db0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9086d85d2f970d26",
+    "type": "split",
+    "children": [
+      {
+        "id": "076ceaf1654e7fc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da6ff887aa0bc2cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "機能/ユーザーのパーソナリティ表現.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ユーザーのパーソナリティ表現"
+            }
+          },
+          {
+            "id": "adc343ce725c13fa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "機能/ユーザーのパーソナリティ表現.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ユーザーのパーソナリティ表現"
+            }
+          },
+          {
+            "id": "46bf1c480907efdc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8697572bce420b18",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "機能/ユーザーのパーソナリティ表現.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ユーザーのパーソナリティ表現"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f3cdceee02433947",
+  "lastOpenFiles": [
+    "設計/バックエンド/エージェント/イベント生成エージェント.md",
+    "設計/バックエンド/エージェント/エピソードマッチングエージェント.md",
+    "設計/バックエンド/エージェント/パーソナリティ判定エージェント.md",
+    "設計/バックエンド/エージェント/対話エージェント.md",
+    "機能/エピソードエディタ/対話的エピソード作成/パーソナリティ判定チュートリアル.md",
+    "機能/エピソードエディタ/対話的エピソード作成/対話エージェント.md",
+    "機能/エピソードエディタ/対話的エピソード作成/目的・メリット.md",
+    "機能/エピソードエディタ/エピソードエディタ.md",
+    "機能/エピソードエディタ/ダッシュボード.md",
+    "機能/エピソードエディタ/セルフライティング.md",
+    "機能/ユーザーのパーソナリティ表現.md",
+    "機能/非機能要件.md",
+    "機能/エピソードの相互開示/エピソードマッチング.md",
+    "機能/エピソードの相互開示/フレンド.md",
+    "機能/エピソードの相互開示/ペアタマネギ/ダッシュボード.md",
+    "機能/エピソードの相互開示/ペアタマネギ/皮を剥く.md",
+    "機能/エピソードの相互開示/ペアタマネギ/ペアタマネギ.md",
+    "設計/タマネギアプリのMVPと実装計画.md",
+    "設計/バックエンド/対話でエピソード生成ロジック.md",
+    "機能/発展的機能/dailyタマネギ.md",
+    "機能/タマネギアカウント.md",
+    "機能/発展的機能/EveGen.md",
+    "コンセプト/コンセプト.md",
+    "ターゲット/発展的ターゲット.md",
+    "ターゲット/初期ターゲット.md",
+    "コンセプト/目的.md",
+    "エビデンス",
+    "機能/エピソードの相互開示/ペアタマネギ",
+    "設計/バックエンド",
+    "設計/フロントエンド",
+    "設計/バックエンド/エージェント",
+    "機能/エピソードエディタ/対話的エピソード作成",
+    "Untitled.canvas",
+    "ターゲット",
+    "UX",
+    "機能/発展的機能",
+    "機能/エピソードエディタ"
+  ]
+}
